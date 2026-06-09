@@ -12,7 +12,6 @@
 </div>
 
 ---
-![Demo](https://some-site.com/image.png?v=3)
 ## Overview
 
 This project implements an end-to-end Simultaneous Localization and Mapping (SLAM) system for a differential-drive robot. It fuses proprioceptive and exteroceptive sensing to estimate the robot's trajectory and reconstruct a consistent map of its environment:
