@@ -111,7 +111,3 @@ See [`Report.pdf`](./Report.pdf) for the full set of trajectory plots, occupancy
 
 Developed as part of **UCSD ECE 276A: Sensing & Estimation in Robotics**.
 
-## License
-
-<!-- Add a license file and update this line, e.g. MIT. -->
-No license specified yet — add one if you intend others to reuse the code.
