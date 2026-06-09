@@ -101,11 +101,11 @@ Occupancy maps with the ICP-estimated trajectory (red) overlaid. White is free s
 
 | Dataset 20 | Dataset 21 |
 | :---: | :---: |
-| ![Dataset 20 occupancy map with ICP trajectory](assets/occupancy_map1.png) | ![Dataset 21 occupancy map with ICP trajectory](assets/occupancy_map2.png) |
+| ![Dataset 20 occupancy map with ICP trajectory](asset/occupancy_map1.png) | ![Dataset 21 occupancy map with ICP trajectory](asset/occupancy_map2.png) |
 
 </div>
 
-See [`ECE276A_Report2.pdf`](./ECE276A_Report2.pdf) for the full set of trajectory plots, occupancy maps, and texture-mapped reconstructions.
+See [`Report.pdf`](./Report.pdf) for the full set of trajectory plots, occupancy maps, and texture-mapped reconstructions.
 
 ## Acknowledgements
 
