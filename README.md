@@ -12,6 +12,7 @@
 </div>
 
 ---
+
 ## Overview
 
 This project implements an end-to-end Simultaneous Localization and Mapping (SLAM) system for a differential-drive robot. It fuses proprioceptive and exteroceptive sensing to estimate the robot's trajectory and reconstruct a consistent map of its environment:
@@ -94,13 +95,14 @@ python test_icp.py
 
 ## Results
 
-Occupancy maps with the ICP-estimated trajectory (red) overlaid. White is free space, black is detected structure, and gray is unobserved. The recovered trajectory stays consistent with the surrounding walls and corridors across both runs.
+The three stages of the pipeline, in order: the ICP-aligned occupancy map, the estimated trajectory, and the final RGBD-textured reconstruction.
 
 <div align="center">
 
-| Dataset 20 | Dataset 21 |
-| :---: | :---: |
-| ![Dataset 20 occupancy map with ICP trajectory](asset/occupancy_map1.png) | ![Dataset optimized map with trajectory](asset/occupancy_map2.png) |
+| ICP Occupancy Map | Estimated Trajectory | Textured Reconstruction |
+| :---: | :---: | :---: |
+| ![Occupancy map with ICP-estimated trajectory](assets/fig1.png) | ![Estimated robot trajectory](assets/fig2.png) | ![RGBD texture-mapped reconstruction](assets/fig3.png) |
+| Red is the ICP trajectory over the log-odds grid (white = free, black = structure, gray = unobserved). | Recovered path with the current pose marked. | Camera color projected onto the map using the optimized poses. |
 
 </div>
 
@@ -109,4 +111,3 @@ See [`Report.pdf`](./Report.pdf) for the full set of trajectory plots, occupancy
 ## Acknowledgements
 
 Developed as part of **UCSD ECE 276A: Sensing & Estimation in Robotics**.
-
