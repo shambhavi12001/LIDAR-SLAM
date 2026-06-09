@@ -101,7 +101,7 @@ The three stages of the pipeline, in order: the ICP-aligned occupancy map, the e
 
 | ICP Occupancy Map | Estimated Trajectory | Textured Reconstruction |
 | :---: | :---: | :---: |
-| ![Occupancy map with ICP-estimated trajectory](assets/fig1.png) | ![Estimated robot trajectory](assets/fig2.png) | ![RGBD texture-mapped reconstruction](assets/fig3.png) |
+| ![Occupancy map with ICP-estimated trajectory](asset/fig1.png) | ![Estimated robot trajectory](asset/fig2.png) | ![RGBD texture-mapped reconstruction](asset/fig3.png) |
 | Red is the ICP trajectory over the log-odds grid (white = free, black = structure, gray = unobserved). | Recovered path with the current pose marked. | Camera color projected onto the map using the optimized poses. |
 
 </div>
