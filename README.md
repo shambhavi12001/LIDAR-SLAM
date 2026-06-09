@@ -101,7 +101,7 @@ Occupancy maps with the ICP-estimated trajectory (red) overlaid. White is free s
 
 | Dataset 20 | Dataset 21 |
 | :---: | :---: |
-| ![Dataset 20 occupancy map with ICP trajectory](asset/occupancy_map1.png) | ![Dataset 21 occupancy map with ICP trajectory](asset/occupancy_map2.png) |
+| ![Dataset 20 occupancy map with ICP trajectory](asset/occupancy_map1.png) | ![Dataset optimized map with trajectory](asset/occupancy_map2.png) |
 
 </div>
 
