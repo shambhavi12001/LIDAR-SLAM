@@ -23,7 +23,7 @@ This project implements an end-to-end Simultaneous Localization and Mapping (SLA
 - **Pose-graph optimization** in [GTSAM](https://gtsam.org/) to enforce global consistency and close loops.
 - **RGBD texture mapping** to project camera color onto the estimated floor/ground map.
 
-The full write-up, including derivations and results, is available in [`ECE276A_Report2.pdf`](./ECE276A_Report2.pdf).
+The full write-up, including derivations and results, is available in [`Report.pdf`](./Report.pdf).
 
 ## Pipeline
 
@@ -50,7 +50,7 @@ flowchart LR
 | `pose_map.py` | Pose-graph construction and optimization (GTSAM backend). |
 | `color_map.py` | RGBD texture mapping — projects camera color onto the map. |
 | `test_icp.py` | Unit tests for the ICP implementation. |
-| `ECE276A_Report2.pdf` | Technical report with methods, math, and results. |
+| `Report.pdf` | Technical report with methods, math, and results. |
 
 ## Getting started
 
